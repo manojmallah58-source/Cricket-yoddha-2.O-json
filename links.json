@@ -1,1 +1,81 @@
-
+iframes": [
+    {
+      "id": "hindisd",
+      "name": "Star Sports Hindi sd",
+      "type": "iframe",
+      "iframeSrc": "http://cricket-yoddha-channel-list.vercel.app/?id=362"
+    },
+    {
+    "id": "hindhd",
+      "name": "Star Sports Hindi sd",
+      "type": "iframe",
+      "iframeSrc": "http://cricket-yoddha-channel-list.vercel.app/?id=362"
+    },
+    {
+    "id": "englishhd",
+      "name": "Star Sports Hindi sd",
+      "type": "iframe",
+      "iframeSrc": "http://cricket-yoddha-channel-list.vercel.app/?id=362"
+    },
+    {
+    "id": "englishsd",
+      "name": "Star Sports Hindi sd",
+      "type": "iframe",
+      "iframeSrc": "http://cricket-yoddha-channel-list.vercel.app/?id=362"
+    },
+    {
+    "id": "hindihd",
+      "name": "Star Sports Hindi sd",
+      "type": "iframe",
+      "iframeSrc": "http://cricket-yoddha-channel-list.vercel.app/?id=362"
+    },
+    {
+    "id": "star2hd",
+      "name": "Star Sports Hindi sd",
+      "type": "iframe",
+      "iframeSrc": "http://cricket-yoddha-channel-list.vercel.app/?id=362"
+    },
+    {
+    "id": "star2sd",
+      "name": "Star Sports Hindi sd",
+      "type": "iframe",
+      "iframeSrc": "http://cricket-yoddha-channel-list.vercel.app/?id=362"
+    },
+    {
+    "id": "star3sd",
+      "name": "Star Sports Hindi sd",
+      "type": "iframe",
+      "iframeSrc": "http://cricket-yoddha-channel-list.vercel.app/?id=362"
+    },
+    {
+    "id": "hindi2hd",
+      "name": "Star Sports Hindi sd",
+      "type": "iframe",
+      "iframeSrc": "http://cricket-yoddha-channel-list.vercel.app/?id=362"
+    },
+    {
+    "id": "hindi2sd",
+      "name": "Star Sports Hindi sd",
+      "type": "iframe",
+      "iframeSrc": "http://cricket-yoddha-channel-list.vercel.app/?id=362"
+    },
+    {
+    "id": "english1hd",
+      "name": "Star Sports Hindi sd",
+      "type": "iframe",
+      "iframeSrc": "http://cricket-yoddha-channel-list.vercel.app/?id=362"
+    },
+    {
+    "id": "english1sd",
+      "name": "Star Sports Hindi sd",
+      "type": "iframe",
+      "iframeSrc": "http://cricket-yoddha-channel-list.vercel.app/?id=362"
+    },
+    {
+    "id": "ipl",
+      "name": "Star Sports Hindi sd",
+      "type": "iframe",
+      "iframeSrc": "http://cricket-yoddha-channel-list.vercel.app/?id=362"
+    }
+  ]
+}
