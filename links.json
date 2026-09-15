@@ -97,10 +97,10 @@
       "iframeSrc": ""
     },
     {
-      "id": "17",
-      "name": "Channel 17",
+      "id": "tapmad",
+      "name": "tapmad",
       "type": "iframe",
-      "iframeSrc": ""
+      "iframeSrc": "https://cricket-yoddha-channel-3.vercel.app/"
     },
     {
       "id": "18",
