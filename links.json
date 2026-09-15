@@ -34,7 +34,7 @@
       "id": "hin",
       "name": "STAR SPORTS HINDI",
       "type": "iframe",
-      "iframeSrc": "https://twitcasting.tv/c:starkind/embeddedplayer/live?auto_play=true&default_mute=true"
+      "iframeSrc": "https://cricket-yoddha-channel-2.vercel.app/"
     },
     {
       "id": "cricbuzz",
