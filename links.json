@@ -34,7 +34,7 @@
       "id": "hin",
       "name": "STAR SPORTS HINDI",
       "type": "iframe",
-      "iframeSrc": "https://twitcasting.tv/c:arjitkumar/embeddedplayer/live?auto_play=true&default_mute=true"
+      "iframeSrc": "https://twitcasting.tv/g:107421087204174714661/embeddedplayer/live"
     },
     {
       "id": "cricbuzz",
@@ -76,7 +76,7 @@
       "id": "ios",
       "name": "i phone",
       "type": "iframe",
-      "iframeSrc": "https://twitcasting.tv/c:arjitkumar/embeddedplayer/live?auto_play=true&default_mute=true"
+      "iframeSrc": "https://twitcasting.tv/g:107421087204174714661/embeddedplayer/live"
     },
     {
       "id": "tamil",
