@@ -34,7 +34,7 @@
       "id": "hin",
       "name": "STAR SPORTS HINDI",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-3.vercel.app/"
+      "iframeSrc": "https://cricket-yoddha-channel-2.vercel.app/"
     },
     {
       "id": "cricbuzz",
@@ -76,7 +76,7 @@
       "id": "ios",
       "name": "i phone",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-3.vercel.app/"
+      "iframeSrc": "https://cricket-yoddha-channel-2.vercel.app/"
     },
     {
       "id": "tamil",
