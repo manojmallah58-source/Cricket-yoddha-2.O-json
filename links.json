@@ -103,9 +103,9 @@
       "iframeSrc": "https://cricket-yoddha-channel-3.vercel.app/"
     },
     {
-      "id": "18",
-      "name": "Channel 18",
-      "type": "iframe",
+      "id": "set",
+      "name": "Sony Set",
+      "type": "https://cricket-yoddha-channel-list.vercel.app/?id=SETHD",
       "iframeSrc": ""
     },
     {
