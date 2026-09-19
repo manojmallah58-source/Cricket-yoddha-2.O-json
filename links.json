@@ -105,8 +105,8 @@
     {
       "id": "set",
       "name": "Sony Set",
-      "type": "https://cricket-yoddha-channel-list.vercel.app/?id=SETHD",
-      "iframeSrc": ""
+      "type": "iframe",
+      "iframeSrc": "https://cricket-yoddha-channel-list.vercel.app/?id=SETHD"
     },
     {
       "id": "19",
