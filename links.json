@@ -1,16 +1,16 @@
 {
   "iframes": [
     {
-      "id": "hindisd",
-      "name": "Star Sports Hindi SD",
+      "id": "SH1HD",
+      "name": "Star Sports Hindi 1",
       "type": "iframe",
-      "iframeSrc": "https://crickcast-test.pages.dev/ss-khel?id=1998"
+      "iframeSrc": "https://cricket-yoddha-channel-list.vercel.app/?id=E1HD"
     },
     {
-      "id": "hindhd",
-      "name": "Star Sports Hindi HD",
+      "id": "SE1HD",
+      "name": "Star Sports HD 1",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-list.vercel.app/?id=1108"
+      "iframeSrc": "https://cricket-yoddha-channel-list.vercel.app/?id=E1HD"
     },
     {
       "id": "ETPL",
