@@ -46,13 +46,13 @@
       "id": "sony5",
       "name": "TNPL 2026",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-list.vercel.app?id=STEN5"
+      "iframeSrc": "https://cricket-yoddha-jiotv.vercel.app/?id=3537"
     },
     {
       "id": "hindi",
       "name": "sony sports Hindi",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-list.vercel.app?id=STEN3"
+      "iframeSrc": "https://cricket-yoddha-jiotv.vercel.app/?id=3536"
     },
     {
       "id": "english",
