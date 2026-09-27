@@ -1,109 +1,109 @@
 {
   "iframes": [
     {
-      "id": "SH1HD",
+      "id": "1",
       "name": "Star Sports Hindi 1",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-2.vercel.app/"
     },
     {
-      "id": "SE1HD",
+      "id": "2",
       "name": "Star Sports HD 1",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-4.vercel.app/"
     },
     {
-      "id": "ETPL",
-      "name": "Star Sports English 2 HD",
+      "id": "3",
+      "name": "Star Sports English 2 ",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-.vercel.app/"
     },
     {
-      "id": "sonyliv",
-      "name": "SONY SPORTS HINDI",
+      "id": "4",
+      "name": "Star Sports 2 hindi",
       "type": "iframe",
       "iframeSrc": "https://crickcast-test.pages.dev/hindi.html"
     },
     {
-      "id": "eng",
-      "name": "Star Sports English SD",
+      "id": "5",
+      "name": "Star Sports English 3 ",
       "type": "iframe",
       "iframeSrc": "https://crickcast-cricbuzz.pages.dev/?id=B0HHQ6L9KX"
     },
     {
-      "id": "hin",
-      "name": "STAR SPORTS HINDI",
+      "id": "6",
+      "name": "Star Sports",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha.vercel.app/?url=https://fancodexeera.pages.dev/SportsEera.m3u8"
     },
     {
-      "id": "cricbuzz",
+      "id": "7",
       "name": "Willow Cricbuzz",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-2.vercel.app/"
     },
     {
-      "id": "sony5",
-      "name": "TNPL 2026",
+      "id": "8",
+      "name": "",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-jiotv.vercel.app/?id=3537"
     },
     {
-      "id": "hindi",
+      "id": "9",
       "name": "sony sports Hindi",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-jiotv.vercel.app/?id=3536"
     },
     {
-      "id": "english",
+      "id": "10",
       "name": "sony sports 1",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-jiotv.vercel.app/?id=3537"
     },
     {
-      "id": "willow",
+      "id": "11",
       "name": "Willow Cricbuzz",
       "type": "iframe",
       "iframeSrc": "https://crickcast-cricbuzz.pages.dev/?id=B0HGMS7B1G"
     },
     {
-      "id": "upt20",
+      "id": "12",
       "name": "star sports Hindi 2",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.vercel.app/?id=1984"
     },
     {
-      "id": "ios",
+      "id": "13",
       "name": "i phone",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha.vercel.app/?url=https://fancodexeera.pages.dev/SportsEera.m3u8"
     },
     {
-      "id": "tamil",
+      "id": "14",
       "name": "sony sports tamil",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.vercel.app?id=STENT"
     },
     {
-      "id": "telugu",
+      "id": "15",
       "name": "Sony Sports Telugu",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.vercel.app?id=STENTU"
     },
     {
-      "id": "Punjabt20",
+      "id": "16",
       "name": "sony sports 5",
       "type": "https://cricket-yoddha-channel-list.vercel.app?id=STEN5",
       "iframeSrc": ""
     },
     {
-      "id": "tapmad",
+      "id": "17",
       "name": "tapmad",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-3.vercel.app/"
     },
     {
-      "id": "set",
+      "id": "18",
       "name": "Sony Set",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-jiotv.vercel.app/?id=291"
