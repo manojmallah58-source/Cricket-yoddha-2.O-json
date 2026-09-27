@@ -128,9 +128,9 @@
     },
     {
       "id": "22",
-      "name": "Channel 22",
+      "name": "TNT SPORTS",
       "type": "iframe",
-      "iframeSrc": ""
+      "iframeSrc": "https://cricket-yoddha-channel-2.vercel.app"
     },
     {
       "id": "23",
