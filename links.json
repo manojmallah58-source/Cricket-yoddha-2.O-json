@@ -4,25 +4,25 @@
       "id": "1",
       "name": "Star Sports Hindi 1",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-2.vercel.app/"
+      "iframeSrc": "https://cricket-yoddha-jiotv.vercel.app/?id=1108"
     },
     {
       "id": "2",
       "name": "Star Sports HD 1",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-4.vercel.app/"
+      "iframeSrc": "https://cricket-yoddha-jiotv.vercel.app/?id=1106"
     },
     {
       "id": "3",
       "name": "Star Sports English 2 ",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-.vercel.app/"
+      "iframeSrc": "https://cricket-yoddha-jiotv.vercel.app/?id=1109"
     },
     {
       "id": "4",
       "name": "Star Sports 2 hindi",
       "type": "iframe",
-      "iframeSrc": "https://crickcast-test.pages.dev/hindi.html"
+      "iframeSrc": "https://cricket-yoddha-jiotv.vercel.app/?id=1984"
     },
     {
       "id": "5",
