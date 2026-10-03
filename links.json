@@ -146,9 +146,9 @@
     },
     {
       "id": "25",
-      "name": "Channel 25",
+      "name": "TNT SPORTS 2",
       "type": "iframe",
-      "iframeSrc": ""
+      "iframeSrc": "https://cricket-yoddha-live.vercel.app/?url=https://sportlink-10.lovable.app/api/public/proxy?url=https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd?&keys=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
     },
     {
       "id": "26",
