@@ -4,19 +4,19 @@
       "id": "1",
       "name": "Star Sports Hindi 1",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-list.vercel.app/K.html?id=H1HD"
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=H1HD"
     },
     {
       "id": "2",
       "name": "Star Sports HD 1",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-list.vercel.app/K.html?id=E1HD"
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=E1HD"
     },
     {
       "id": "3",
       "name": "Star Sports English 2 ",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-list.vercel.app/K.html?id=E2SD"
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=E2HD"
     },
     {
       "id": "4",
