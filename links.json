@@ -100,7 +100,7 @@
       "id": "17",
       "name": "tapmad",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha.vercel.app/?url=https://daviscup-veto.akamaized.net/f98c8ae68a354ab59a4e28e3dd700d4f/playlist.m3u8"
+      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://daviscup-veto.akamaized.net/f98c8ae68a354ab59a4e28e3dd700d4f/playlist.m3u8"
     },
     {
       "id": "18",
@@ -136,7 +136,7 @@
       "id": "23",
       "name": "Channel 23",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha.vercel.app/?url=https://amg01269-amg01269c1-sportstribal-emea-5204.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01269-willowtvfast-willowplus-sportstribalemea/playlist.m3u8"
+      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://amg01269-amg01269c1-sportstribal-emea-5204.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01269-willowtvfast-willowplus-sportstribalemea/playlist.m3u8"
     },
     {
       "id": "24",
