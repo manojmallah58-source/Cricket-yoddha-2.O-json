@@ -166,19 +166,19 @@
       "id": "28",
       "name": "sky sports",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://mediapackage-sky-three-source.fullscreen.nz/index_3.m3u8."
+      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://tims-nl-0001.duckdns.org/main/secure/bc2817609465f5bdafd0b0f6dd4194ede7775cd21d61bf69fc23956a2a5215e9/1792824151/skysport3-nz.m3u8"
     },
     {
       "id": "29",
-      "name": "Channel 29",
+      "name": "fox cricket",
       "type": "iframe",
-      "iframeSrc": ""
+      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://tims-nl-0001.duckdns.org/main/secure/bc8a3f1a02cdb2d7b2227a0910afe95923692791debc8c3cc3fb1ec02b604a83/1792824018/fox-sports-501.m3u8"
     },
     {
       "id": "30",
       "name": "Channel 30",
       "type": "iframe",
-      "iframeSrc": ""
+      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://mediapackage-sky-three-source.fullscreen.nz/index_3.m3u8"
     },
     {
       "id": "31",
