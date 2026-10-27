@@ -12,7 +12,7 @@ export default {
         "cricket-tv.pages.dev"
       ]; 
 
-      // Check karega ki request in domains se aa rahi hai ya nahi (Referer ya Origin dono mein check karega)
+      // Check karega ki request in domains se aa rahi hai ya nahi
       const isAllowed = allowedDomains.some(domain => 
         referer.includes(domain) || origin.includes(domain)
       );
@@ -26,7 +26,7 @@ export default {
       }
     }
 
-    // Agar allowed domains se hai, toh links aaram se chalenge
-    return fetch(request);
+    // Cloudflare Pages ke liye yeh sahi tareeka hai links aur files ko load karne ka
+    return env.ASSETS.fetch(request);
   }
 };
