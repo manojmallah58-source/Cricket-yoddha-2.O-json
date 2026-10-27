@@ -3,20 +3,14 @@ export default {
     const url = new URL(request.url);
 
     if (url.pathname === "/links.json") {
-      const referer = request.headers.get("referer") || "";
+      // Yahan apni pasand ki koi bhi secret key / password rakh lo
+      const secretKey = "cricket2026"; 
 
-      // In domains ko permission di gayi hai. 
-      // cricket-tv.pages.dev ke aage chahe jo bhi naam ho (jaise /talkwithshivam), sab chalega!
-      const allowedDomains = [
-        "cricket-yoddha-2-0.pages.dev",  // Aapki main website
-        "cricket-tv.pages.dev"           // Dosto ka domain (aage ke sabhi naam isme cover ho jayenge)
-      ]; 
+      // Check karega ki link ke sath ?key=cricket2026 jud kar aaya hai ya nahi
+      const userKey = url.searchParams.get("key");
 
-      // Check karega ki request inme se kisi bhi authorized jagah se aa rahi hai ya nahi
-      const isAllowed = allowedDomains.some(domain => referer.includes(domain));
-
-      // Agar list me se koi match nahi hua, toh ekdum BLANK (khali) response bhej do
-      if (!isAllowed) {
+      // Agar key match nahi hoti, toh bilkul BLANK (khali) bhej do
+      if (userKey !== secretKey) {
         return new Response("", { 
           status: 200, 
           headers: { "Content-Type": "application/json" } 
@@ -24,7 +18,7 @@ export default {
       }
     }
 
-    // Agar allowed hai, toh links aaram se load ho jayenge
+    // Agar sahi key ke sath request aayi hai, toh links chal jayenge
     return fetch(request);
   }
 };
