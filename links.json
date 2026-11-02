@@ -1,64 +1,64 @@
 {
   "iframes": [
     {
-      "id": "1",
+      "id": "SSH1",
       "name": "Star Sports 1 Hindi",
       "category": "Star Sports",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=H1HD"
     },
     {
-      "id": "2",
+      "id": "SSE1",
       "name": "Star Sports 1 HD",
       "category": "Star Sports",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=E1HD"
     },
     {
-      "id": "3",
+      "id": "SSH2",
       "name": "Star Sports 2 Hindi",
       "category": "Star Sports",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=H2HD"
     },
     {
-      "id": "4",
+      "id": "SSE2",
       "name": "Star Sports 2 English",
       "category": "Star Sports",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=E2HD"
     },
     {
-      "id": "5",
+      "id": "SSE3",
       "name": "Star Sports 3 English",
       "category": "Star Sports",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=SS3"
     },
     {
-      "id": "6",
+      "id": "SST",
       "name": "Star Sports Tamil",
       "category": "Star Sports",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=T1HD"
     },
     {
-      "id": "7",
+      "id": "SSTE",
       "name": "Star Sports Telugu",
       "category": "Star Sports",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=TE1HD"
     },
     {
-      "id": "8",
-      "name": "Star Sports (Extra)",
+      "id": "SSK",
+      "name": "Star Sports Kannan",
       "category": "Star Sports",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.vercel.app/K.html?id=SS3"
     },
     {
-      "id": "9",
-      "name": "Star Sports Hindi (Alt)",
+      "id": "SSKL",
+      "name": "Star Sports khel",
       "category": "Star Sports",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.vercel.app/?id=1984"
