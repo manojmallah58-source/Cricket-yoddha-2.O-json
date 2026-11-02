@@ -51,17 +51,17 @@
     },
     {
       "id": "SSK",
-      "name": "Star Sports Kannan",
+      "name": "Star Sports Kannada",
       "category": "Star Sports",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-list.vercel.app/K.html?id=SS3"
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/A?id=1650"
     },
     {
       "id": "SSKL",
       "name": "Star Sports khel",
       "category": "Star Sports",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-list.vercel.app/?id=1984"
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/A?id=1998"
     },
     {
       "id": "10",
