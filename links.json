@@ -117,45 +117,45 @@
       "name": "Willow Sports (IOS)",
       "category": "iPhone",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://akamaii.lovable.app/api/public/px/sony?url=https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1793551739~acl=*~id=1556784484fancode~hmac=c91c100c564accab82e9f93f500e949867f55844ec4ce60c7eceff1b0fd5b94d"
+      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://amg01269-amg01269c1-sportstribal-emea-5204.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01269-willowtvfast-willowplus-sportstribalemea/playlist.m3u8"
     },
     {
       "id": "IP2",
       "name": "Sony Hindi (IOS)",
       "category": "iPhone",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://akamaii.lovable.app/api/public/px/sony?url=https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1793551739~acl=*~id=1556784484fancode~hmac=c91c100c564accab82e9f93f500e949867f55844ec4ce60c7eceff1b0fd5b94d"
+      "iframeSrc": ""
     },
     {
       "id": "IP3",
       "name": "Sony English (IOS)",
       "category": "iPhone",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://akamaii.lovable.app/api/public/px/sony?url=https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1793551739~acl=*~id=1556784484fancode~hmac=c91c100c564accab82e9f93f500e949867f55844ec4ce60c7eceff1b0fd5b94d"
+      "iframeSrc": ""
     },
     {
       "id": "IP4",
       "name": "Tapmad (IOS)",
       "category": "iPhone",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://akamaii.lovable.app/api/public/px/sony?url=https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1793551739~acl=*~id=1556784484fancode~hmac=c91c100c564accab82e9f93f500e949867f55844ec4ce60c7eceff1b0fd5b94d"
+      "iframeSrc": ""
     },
     {
       "id": "IP5",
       "name": "Willow Cricbuzz (IOS)",
       "category": "iPhone",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://akamaii.lovable.app/api/public/px/sony?url=https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1793551739~acl=*~id=1556784484fancode~hmac=c91c100c564accab82e9f93f500e949867f55844ec4ce60c7eceff1b0fd5b94d"
+      "iframeSrc": ""
     },
     {
-      "id": "21",
+      "id": "Willow",
       "name": "Willow Cricbuzz 1",
       "category": "World Wide",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n0mieq8c3c/out/v1/b346ac4cf7864dd39245d688e66d4b42/cenc.mpd&keys=de23ce5421c57988c1ba1cd8a0d16551:fb50935ff66bcea5899f989c5bbfd270"
     },
     {
-      "id": "22",
+      "id": "Willow2",
       "name": "Willow Cricbuzz 2",
       "category": "World Wide",
       "type": "iframe",
@@ -218,14 +218,14 @@
       "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://sportlink-10.lovable.app/api/public/proxy?url=https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/mmvlg151u6/out/v1/ab9d1f193c094ee8a9305f983a716f35/cenc.mpd?&keys=18e6af4a0daf2a1fdfbdc5b541520c88:ca0b64b84edb4f20eb1e135ff03db4f7"
     },
     {
-      "id": "31",
+      "id": "Prime1",
       "name": "Prime English",
       "category": "World Wide",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/9z1fajy3r4/out/v1/2e1a478d31fb4c1dbd2e54391b006a35/cenc.mpd&keys=de23ce5421c57988c1ba1cd8a0d16551:fb50935ff66bcea5899f989c5bbfd270."
     },
     {
-      "id": "32",
+      "id": "Prime2",
       "name": "Prime Hindi",
       "category": "World Wide",
       "type": "iframe",
@@ -239,7 +239,7 @@
       "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://kvms-veto.akamaized.net/f98c8ae68a354ab59a4e28e3dd700d4f/playlist.m3u8"
     },
     {
-      "id": "34",
+      "id": "Willow3",
       "name": "Channel 23",
       "category": "World Wide",
       "type": "iframe",
