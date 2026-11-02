@@ -64,46 +64,53 @@
       "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/A?id=1998"
     },
     {
-      "id": "10",
+      "id": "Sony1",
       "name": "Sony Sports 1",
       "category": "Sony Sports",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=STEN1"
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/A?id=162"
     },
     {
-      "id": "11",
+      "id": "Sony2",
       "name": "Sony Sports 2",
       "category": "Sony Sports",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=STEN2"
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/A?id=891"
     },
     {
-      "id": "12",
-      "name": "Sony Sports 5",
+      "id": "Sony3",
+      "name": "Sony Sports 3 Hindi",
       "category": "Sony Sports",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=STEN5"
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/A?id=892"
     },
     {
-      "id": "13",
-      "name": "Sony Sports Hindi",
-      "category": "Sony Sports",
-      "type": "iframe",
-      "iframeSrc": "https://sonucdn-v5.pages.dev/channel/prime"
-    },
-    {
-      "id": "14",
-      "name": "Sony Sports Tamil",
-      "category": "Sony Sports",
-      "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=STENT"
-    },
-    {
-      "id": "15",
+      "id": "Sony4",
       "name": "Sony Sports Telugu",
       "category": "Sony Sports",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=STENTU"
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/A?id=1773"
+    },
+    {
+      "id": "Sony5",
+      "name": "Sony Sports Tamil",
+      "category": "Sony Sports",
+      "type": "iframe",
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/A?id=3514"
+    },
+    {
+      "id": "Sony6",
+      "name": "Sony Sports Kannada",
+      "category": "Sony Sports",
+      "type": "iframe",
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/A?id=3585"
+    },
+    {
+      "id": "Sony7",
+      "name": "Sony Sports 5",
+      "category": "Sony Sports",
+      "type": "iframe",
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/A?id=155"
     },
     {
       "id": "16",
