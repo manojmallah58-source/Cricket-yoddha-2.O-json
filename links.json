@@ -2,303 +2,241 @@
   "iframes": [
     {
       "id": "1",
-      "name": "Star Sports Hindi 1",
+      "name": "Star Sports 1 Hindi",
+      "category": "Star Sports",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=H1HD"
     },
     {
       "id": "2",
-      "name": "Star Sports HD 1",
+      "name": "Star Sports 1 HD",
+      "category": "Star Sports",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=E1HD"
     },
     {
       "id": "3",
-      "name": "Star Sports English 2 ",
-      "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=E2HD"
-    },
-    {
-      "id": "4",
-      "name": "Star Sports 2 hindi",
+      "name": "Star Sports 2 Hindi",
+      "category": "Star Sports",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=H2HD"
     },
     {
+      "id": "4",
+      "name": "Star Sports 2 English",
+      "category": "Star Sports",
+      "type": "iframe",
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=E2HD"
+    },
+    {
       "id": "5",
-      "name": "Star Sports English 3 ",
+      "name": "Star Sports 3 English",
+      "category": "Star Sports",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=SS3"
     },
     {
       "id": "6",
-      "name": "Star Sports",
+      "name": "Star Sports Tamil",
+      "category": "Star Sports",
+      "type": "iframe",
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=T1HD"
+    },
+    {
+      "id": "7",
+      "name": "Star Sports Telugu",
+      "category": "Star Sports",
+      "type": "iframe",
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=TE1HD"
+    },
+    {
+      "id": "8",
+      "name": "Star Sports (Extra)",
+      "category": "Star Sports",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.vercel.app/K.html?id=SS3"
     },
     {
-      "id": "7",
-      "name": "Willow Cricbuzz",
-      "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n0mieq8c3c/out/v1/b346ac4cf7864dd39245d688e66d4b42/cenc.mpd&keys=de23ce5421c57988c1ba1cd8a0d16551:fb50935ff66bcea5899f989c5bbfd270"
-    },
-    {
-      "id": "8",
-      "name": "Sony Sports 1",
-      "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=STEN1"
-    },
-    {
       "id": "9",
-      "name": "sony sports Hindi",
-      "type": "iframe",
-      "iframeSrc": "https://sonucdn-v5.pages.dev/channel/prime"
-    },
-    {
-      "id": "10",
-      "name": "sony sports 5",
-      "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=STEN5"
-    },
-    {
-      "id": "11",
-      "name": "Willow Cricbuzz",
-      "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://sportlink-10.lovable.app/api/public/proxy?url=https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1runwqpk0c/out/v1/0ae93e8fb1534fff812de48245f4516c/cenc.mpd?&keys=4a822aaf010c2bd57b138e3733c6a2c0:f8c4fbf1f95f17a91b19250e573e55fe"
-    },
-    {
-      "id": "12",
-      "name": "star sports Hindi 2",
+      "name": "Star Sports Hindi (Alt)",
+      "category": "Star Sports",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.vercel.app/?id=1984"
     },
     {
-      "id": "13",
-      "name": "i phone",
+      "id": "10",
+      "name": "Sony Sports 1",
+      "category": "Sony Sports",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://akamaii.lovable.app/api/public/px/sony?url=https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1793551739~acl=*~id=1556784484fancode~hmac=c91c100c564accab82e9f93f500e949867f55844ec4ce60c7eceff1b0fd5b94d"
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=STEN1"
+    },
+    {
+      "id": "11",
+      "name": "Sony Sports 2",
+      "category": "Sony Sports",
+      "type": "iframe",
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=STEN2"
+    },
+    {
+      "id": "12",
+      "name": "Sony Sports 5",
+      "category": "Sony Sports",
+      "type": "iframe",
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=STEN5"
+    },
+    {
+      "id": "13",
+      "name": "Sony Sports Hindi",
+      "category": "Sony Sports",
+      "type": "iframe",
+      "iframeSrc": "https://sonucdn-v5.pages.dev/channel/prime"
     },
     {
       "id": "14",
-      "name": "sony sports tamil",
+      "name": "Sony Sports Tamil",
+      "category": "Sony Sports",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=STENT"
     },
     {
       "id": "15",
       "name": "Sony Sports Telugu",
+      "category": "Sony Sports",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=STENTU"
     },
     {
       "id": "16",
-      "name": "sony sports 2",
+      "name": "iPhone Link 1",
+      "category": "iPhone",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=STEN2"
+      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://akamaii.lovable.app/api/public/px/sony?url=https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1793551739~acl=*~id=1556784484fancode~hmac=c91c100c564accab82e9f93f500e949867f55844ec4ce60c7eceff1b0fd5b94d"
     },
     {
       "id": "17",
-      "name": "tapmad",
+      "name": "iPhone Link 2",
+      "category": "iPhone",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://kvms-veto.akamaized.net/f98c8ae68a354ab59a4e28e3dd700d4f/playlist.m3u8"
+      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://akamaii.lovable.app/api/public/px/sony?url=https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1793551739~acl=*~id=1556784484fancode~hmac=c91c100c564accab82e9f93f500e949867f55844ec4ce60c7eceff1b0fd5b94d"
     },
     {
       "id": "18",
+      "name": "iPhone Link 3",
+      "category": "iPhone",
+      "type": "iframe",
+      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://akamaii.lovable.app/api/public/px/sony?url=https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1793551739~acl=*~id=1556784484fancode~hmac=c91c100c564accab82e9f93f500e949867f55844ec4ce60c7eceff1b0fd5b94d"
+    },
+    {
+      "id": "19",
+      "name": "iPhone Link 4",
+      "category": "iPhone",
+      "type": "iframe",
+      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://akamaii.lovable.app/api/public/px/sony?url=https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1793551739~acl=*~id=1556784484fancode~hmac=c91c100c564accab82e9f93f500e949867f55844ec4ce60c7eceff1b0fd5b94d"
+    },
+    {
+      "id": "20",
+      "name": "iPhone Link 5",
+      "category": "iPhone",
+      "type": "iframe",
+      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://akamaii.lovable.app/api/public/px/sony?url=https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1793551739~acl=*~id=1556784484fancode~hmac=c91c100c564accab82e9f93f500e949867f55844ec4ce60c7eceff1b0fd5b94d"
+    },
+    {
+      "id": "21",
+      "name": "Willow Cricbuzz 1",
+      "category": "World Wide",
+      "type": "iframe",
+      "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n0mieq8c3c/out/v1/b346ac4cf7864dd39245d688e66d4b42/cenc.mpd&keys=de23ce5421c57988c1ba1cd8a0d16551:fb50935ff66bcea5899f989c5bbfd270"
+    },
+    {
+      "id": "22",
+      "name": "Willow Cricbuzz 2",
+      "category": "World Wide",
+      "type": "iframe",
+      "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://sportlink-10.lovable.app/api/public/proxy?url=https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1runwqpk0c/out/v1/0ae93e8fb1534fff812de48245f4516c/cenc.mpd?&keys=4a822aaf010c2bd57b138e3733c6a2c0:f8c4fbf1f95f17a91b19250e573e55fe"
+    },
+    {
+      "id": "23",
       "name": "Euro Sports",
+      "category": "World Wide",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=EURO"
     },
     {
-      "id": "19",
-      "name": "Star sports Tamil",
-      "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=T1HD"
-    },
-    {
-      "id": "20",
-      "name": "star sports Telugu",
-      "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=TE1HD"
-    },
-    {
-      "id": "21",
+      "id": "24",
       "name": "Fancode 1",
+      "category": "World Wide",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd&keys=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
     },
     {
-      "id": "22",
+      "id": "25",
       "name": "Fancode 2",
+      "category": "World Wide",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd&keys=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
     },
     {
-      "id": "23",
-      "name": "Channel 23",
-      "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://amg01269-amg01269c1-sportstribal-emea-5204.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01269-willowtvfast-willowplus-sportstribalemea/playlist.m3u8"
-    },
-    {
       "id": "26",
       "name": "TNT SPORTS 1",
+      "category": "World Wide",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd?&keys=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
     },
     {
-      "id": "25",
+      "id": "27",
       "name": "TNT SPORTS 2",
+      "category": "World Wide",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd?&keys=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
     },
     {
-      "id": "24",
+      "id": "28",
       "name": "TNT SPORTS 3",
+      "category": "World Wide",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd?&keys=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
     },
     {
-      "id": "27",
-      "name": "Channel 27",
-      "type": "iframe",
-      "iframeSrc": ""
-    },
-    {
-      "id": "28",
-      "name": "sky sports",
+      "id": "29",
+      "name": "Sky Sports",
+      "category": "World Wide",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://akamaii.lovable.app/api/public/px/sony?url=https://dishmt.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8?hdnea=exp=1793551739~acl=*~id=1556784484fancode~hmac=c91c100c564accab82e9f93f500e949867f55844ec4ce60c7eceff1b0fd5b94d"
     },
     {
-      "id": "29",
-      "name": "sky nz",
+      "id": "30",
+      "name": "Sky NZ",
+      "category": "World Wide",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://sportlink-10.lovable.app/api/public/proxy?url=https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/mmvlg151u6/out/v1/ab9d1f193c094ee8a9305f983a716f35/cenc.mpd?&keys=18e6af4a0daf2a1fdfbdc5b541520c88:ca0b64b84edb4f20eb1e135ff03db4f7"
     },
     {
-      "id": "30",
-      "name": "prime English",
+      "id": "31",
+      "name": "Prime English",
+      "category": "World Wide",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/9z1fajy3r4/out/v1/2e1a478d31fb4c1dbd2e54391b006a35/cenc.mpd&keys=de23ce5421c57988c1ba1cd8a0d16551:fb50935ff66bcea5899f989c5bbfd270."
     },
     {
-      "id": "31",
-      "name": "prime Hindi",
+      "id": "32",
+      "name": "Prime Hindi",
+      "category": "World Wide",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/mohqiz9gyv/out/v1/95de092d1d574891ba87cd37df9c3f2b/cenc.mpd&keys=4d4e8cc811e844075fa97ed19abb1abe:9bcb83c52597af936e9b3ff8a4dd27e4"
     },
     {
-      "id": "32",
-      "name": "Channel 32",
-      "type": "iframe",
-      "iframeSrc": ""
-    },
-    {
       "id": "33",
-      "name": "Channel 33",
+      "name": "Tapmad",
+      "category": "World Wide",
       "type": "iframe",
-      "iframeSrc": ""
+      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://kvms-veto.akamaized.net/f98c8ae68a354ab59a4e28e3dd700d4f/playlist.m3u8"
     },
     {
       "id": "34",
-      "name": "Channel 34",
+      "name": "Channel 23",
+      "category": "World Wide",
       "type": "iframe",
-      "iframeSrc": ""
-    },
-    {
-      "id": "35",
-      "name": "Channel 35",
-      "type": "iframe",
-      "iframeSrc": ""
-    },
-    {
-      "id": "36",
-      "name": "Channel 36",
-      "type": "iframe",
-      "iframeSrc": ""
-    },
-    {
-      "id": "37",
-      "name": "Channel 37",
-      "type": "iframe",
-      "iframeSrc": ""
-    },
-    {
-      "id": "38",
-      "name": "Channel 38",
-      "type": "iframe",
-      "iframeSrc": ""
-    },
-    {
-      "id": "39",
-      "name": "Channel 39",
-      "type": "iframe",
-      "iframeSrc": ""
-    },
-    {
-      "id": "40",
-      "name": "Channel 40",
-      "type": "iframe",
-      "iframeSrc": ""
-    },
-    {
-      "id": "41",
-      "name": "Channel 41",
-      "type": "iframe",
-      "iframeSrc": ""
-    },
-    {
-      "id": "42",
-      "name": "Channel 42",
-      "type": "iframe",
-      "iframeSrc": ""
-    },
-    {
-      "id": "43",
-      "name": "Channel 43",
-      "type": "iframe",
-      "iframeSrc": ""
-    },
-    {
-      "id": "44",
-      "name": "Channel 44",
-      "type": "iframe",
-      "iframeSrc": ""
-    },
-    {
-      "id": "45",
-      "name": "Channel 45",
-      "type": "iframe",
-      "iframeSrc": ""
-    },
-    {
-      "id": "46",
-      "name": "Channel 46",
-      "type": "iframe",
-      "iframeSrc": ""
-    },
-    {
-      "id": "47",
-      "name": "Channel 47",
-      "type": "iframe",
-      "iframeSrc": ""
-    },
-    {
-      "id": "48",
-      "name": "Channel 48",
-      "type": "iframe",
-      "iframeSrc": ""
-    },
-    {
-      "id": "49",
-      "name": "Channel 49",
-      "type": "iframe",
-      "iframeSrc": ""
-    },
-    {
-      "id": "50",
-      "name": "Channel 50",
-      "type": "iframe",
-      "iframeSrc": ""
+      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://amg01269-amg01269c1-sportstribal-emea-5204.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01269-willowtvfast-willowplus-sportstribalemea/playlist.m3u8"
     }
   ]
 }
