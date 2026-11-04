@@ -152,7 +152,7 @@
       "name": "Willow Cricbuzz 1",
       "category": "World Wide",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n0mieq8c3c/out/v1/b346ac4cf7864dd39245d688e66d4b42/cenc.mpd&keys=de23ce5421c57988c1ba1cd8a0d16551:fb50935ff66bcea5899f989c5bbfd270"
+      "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pkooyxhqmr/out/v1/4c8d0ecc7d704eb2935efde33b289d50/cenc.mpd&keys=6a028d5592b0e81f9c4fd4de4df6d5c7:9378d2ddd738b2d0b7a85ba65b643a7f"
     },
     {
       "id": "Willow2",
@@ -229,7 +229,7 @@
       "name": "Prime Hindi",
       "category": "World Wide",
       "type": "iframe",
-      "iframeSrc": "https://sonucdn-v5.pages.dev/channel/prime.html"
+      "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ppmrp8tlzz/out/v1/cf829370483b4212ac7d5e3009c514b1/cenc.mpd&keys=952fb91696308da86bee7cd24edf0b58:bf359214ab3ac848738bdf014ace21b3"
     },
     {
       "id": "33",
