@@ -197,18 +197,18 @@
       "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd?&keys=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
     },
     {
-      "id": "TNT",
+      "id": "TNT3",
       "name": "TNT SPORTS 3",
       "category": "World Wide",
       "type": "iframe",
       "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd?&keys=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
     },
     {
-      "id": "29",
-      "name": "Sky Sports",
+      "id": "TNT",
+      "name": "TNT SPORTS 4",
       "category": "World Wide",
       "type": "iframe",
-      "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://akamaii.lovable.app/api/public/px/sony?url=https://dishmt.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8?hdnea=exp=1793551739~acl=*~id=1556784484fancode~hmac=c91c100c564accab82e9f93f500e949867f55844ec4ce60c7eceff1b0fd5b94d"
+      "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd&keys=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
     },
     {
       "id": "30",
