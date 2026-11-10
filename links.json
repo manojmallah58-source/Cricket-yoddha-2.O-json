@@ -183,7 +183,7 @@
       "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd&keys=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
     },
     {
-      "id": "TNT1",
+      "id": "TNT",
       "name": "TNT SPORTS 1",
       "category": "World Wide",
       "type": "iframe",
@@ -204,7 +204,7 @@
       "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd?&keys=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
     },
     {
-      "id": "TNT",
+      "id": "TNT4",
       "name": "TNT SPORTS 4",
       "category": "World Wide",
       "type": "iframe",
