@@ -57,6 +57,20 @@
       "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/A?id=1650"
     },
     {
+      "id": "SSS1",
+      "name": "Star Sports Select 1",
+      "category": "Star Sports",
+      "type": "iframe",
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=ST1HD"
+    },
+    {
+      "id": "SSS2",
+      "name": "Star Sports Select 2",
+      "category": "Star Sports",
+      "type": "iframe",
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=ST2HD"
+    },
+    {
       "id": "SSKL",
       "name": "Star Sports khel",
       "category": "Star Sports",
