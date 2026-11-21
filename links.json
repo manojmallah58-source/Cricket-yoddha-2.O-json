@@ -260,6 +260,20 @@
       "iframeSrc": "https://cricket-yoddha.pages.dev/?url=https://amg01269-amg01269c1-sportstribal-emea-5204.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01269-willowtvfast-willowplus-sportstribalemea/playlist.m3u8"
     },
     {
+      "id": "U1",
+      "name": "ILT20 HINDI",
+      "category": "World Wide",
+      "type": "iframe",
+      "iframeSrc": "https://cricket-yoddha-live.pages.dev/?url=https://d1iwj24qiokrul.cloudfront.net/live/media/Unite8_Sports_1_HD/dash/Unite8_Sports_1_HD.mpd&keys=d5859726f4804398b37aa6eb9d571a4f:11c43967054ad1765d919f854889912f"
+    },
+    {
+      "id": "U2",
+      "name": "ILT20 ENGLISH",
+      "category": "Star Sports",
+      "type": "iframe",
+      "iframeSrc": "https://cricket-yoddha-channel-list.pages.dev/K?id=E1HD"
+    },
+    {
       "id": "M1",
       "name": "Ramayan Movie",
       "category": "Movies",
