@@ -3,11 +3,10 @@ export default {
     const url = new URL(request.url);
 
     if (url.pathname === "/links.json") {
-      // Yahan apne base domains rakhein (in par aur inke kisi bhi subdomain par chalega)
-      const allowedBaseDomains = [
+      const allowedDomains = [
         "cricket-yoddha-2-0.pages.dev",
         "cricket-tv.pages.dev",
-        "https://cricket-yoddha-2-o-json.pages.dev/links.json"
+        "cricket-yoddha-2-o-json.pages.dev"
       ];
 
       const getHost = (val) => {
@@ -21,23 +20,24 @@ export default {
 
       const refHost = getHost(request.headers.get("referer") || "");
       const origHost = getHost(request.headers.get("origin") || "");
-      const secFetchSite = request.headers.get("sec-fetch-site") || "";
+      const fetchMode = request.headers.get("sec-fetch-mode") || "";
 
-      const matchesAllowed = (host) => {
+      const isAllowed = (host) => {
         if (!host) return false;
-        return allowedBaseDomains.some(
-          (base) => host === base || host.endsWith("." + base)
+        return allowedDomains.some(
+          (d) => host === d || host.endsWith("." + d)
         );
       };
 
-      const isAllowedHost = matchesAllowed(refHost) || matchesAllowed(origHost);
+      const domainOk = isAllowed(refHost) || isAllowed(origHost);
+      const isDirectOpen = fetchMode === "navigate" && !refHost;
 
-      if (!isAllowedHost || secFetchSite === "cross-site") {
+      if (!domainOk || isDirectOpen) {
         return new Response(
           JSON.stringify({
             error: true,
             status: 403,
-            message: "Blocked: Sirf allowed domain par hi chalega."
+            message: "Blocked: Sirf allowed domains ke liye."
           }),
           {
             status: 403,
@@ -49,6 +49,24 @@ export default {
           }
         );
       }
+
+      const res = await env.ASSETS.fetch(request);
+      const headers = new Headers(res.headers);
+      const activeOrigin =
+        request.headers.get("origin") || (refHost ? `https://${refHost}` : "");
+
+      if (activeOrigin && isAllowed(getHost(activeOrigin))) {
+        headers.set("Access-Control-Allow-Origin", activeOrigin);
+        headers.set("Vary", "Origin");
+      }
+      headers.set("Cache-Control", "no-store, no-cache, must-revalidate, private");
+      headers.set("X-Content-Type-Options", "nosniff");
+
+      return new Response(res.body, {
+        status: res.status,
+        statusText: res.statusText,
+        headers
+      });
     }
 
     return env.ASSETS.fetch(request);
