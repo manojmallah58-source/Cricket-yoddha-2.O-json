@@ -7,7 +7,7 @@ export default {
       const allowedBaseDomains = [
         "cricket-yoddha-2-0.pages.dev",
         "cricket-tv.pages.dev",
-        "cricket-yoddha-2-o-json.pages.dev"
+        "https://cricket-yoddha-2-o-json.pages.dev/links.json"
       ];
 
       const getHost = (val) => {
