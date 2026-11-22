@@ -17,22 +17,29 @@ export default {
       }
     };
 
-    const deny = (msg) =>
-      new Response(JSON.stringify({ error: true, status: 403, message: msg }), {
-        status: 403,
-        headers: {
-          "Content-Type": "application/json; charset=utf-8",
-          "Cache-Control": "no-store, no-cache, must-revalidate, private",
-          "X-Content-Type-Options": "nosniff"
+    const block403 = (reason) =>
+      new Response(
+        JSON.stringify({
+          blocked: true,
+          status: 403,
+          error: reason
+        }),
+        {
+          status: 403,
+          headers: {
+            "Content-Type": "application/json; charset=utf-8",
+            "Cache-Control": "no-store, no-cache, must-revalidate, private",
+            "X-Content-Type-Options": "nosniff"
+          }
         }
-      });
+      );
 
-    // 1. Koi bhi JSON file khole ya call kare -> hamesha error
+    // 1. Koi bhi .json khole, copy kare, ya code mein daale -> turant block
     if (url.pathname.endsWith(".json")) {
-      return deny("Error: JSON access blocked.");
+      return block403("JSON is blocked.");
     }
 
-    // 2. Har request ke liye strict domain check
+    // 2. Allowed domains ke alawa har request block
     const refererHost = getHost(request.headers.get("referer") || "");
     const originHost = getHost(request.headers.get("origin") || "");
     const secFetchSite = request.headers.get("sec-fetch-site") || "";
@@ -41,9 +48,8 @@ export default {
       (refererHost && ALLOWED_HOSTS.has(refererHost)) ||
       (originHost && ALLOWED_HOSTS.has(originHost));
 
-    // Direct browser open (empty referer + no origin) ya cross-site block
     if (!isAllowed || secFetchSite === "cross-site") {
-      return deny("Error: Unauthorized domain.");
+      return block403("Domain is blocked.");
     }
 
     return env.ASSETS.fetch(request);
