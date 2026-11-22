@@ -2,54 +2,64 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
 
-    const ALLOWED_HOSTS = new Set([
-      "cricket-yoddha-2-0.pages.dev",
-      "cricket-tv.pages.dev",
-      "cricket-yoddha-2-o-json.pages.dev"
-    ]);
+    if (url.pathname === "/links.json") {
+      const ALLOWED = new Set([
+        "cricket-yoddha-2-0.pages.dev",
+        "cricket-tv.pages.dev",
+        "cricket-yoddha-2-o-json.pages.dev"
+      ]);
 
-    const getHost = (val) => {
-      if (!val) return "";
-      try {
-        return new URL(val).hostname.toLowerCase();
-      } catch {
-        return "";
-      }
-    };
-
-    const block403 = (reason) =>
-      new Response(
-        JSON.stringify({
-          blocked: true,
-          status: 403,
-          error: reason
-        }),
-        {
-          status: 403,
-          headers: {
-            "Content-Type": "application/json; charset=utf-8",
-            "Cache-Control": "no-store, no-cache, must-revalidate, private",
-            "X-Content-Type-Options": "nosniff"
-          }
+      const getHost = (h) => {
+        if (!h) return "";
+        try {
+          return new URL(h).hostname.toLowerCase();
+        } catch {
+          return "";
         }
-      );
+      };
 
-    // 1. Koi bhi .json khole, copy kare, ya code mein daale -> turant block
-    if (url.pathname.endsWith(".json")) {
-      return block403("JSON is blocked.");
-    }
+      const refHost = getHost(request.headers.get("referer") || "");
+      const origHost = getHost(request.headers.get("origin") || "");
+      const mode = request.headers.get("sec-fetch-mode") || "";
+      const site = request.headers.get("sec-fetch-site") || "";
 
-    // 2. Allowed domains ke alawa har request block
-    const refererHost = getHost(request.headers.get("referer") || "");
-    const originHost = getHost(request.headers.get("origin") || "");
-    const secFetchSite = request.headers.get("sec-fetch-site") || "";
+      // Direct browser open (address bar) ya allowed domain ke bahar -> turant 403 error
+      const isDirectOpen = mode === "navigate" && !refHost;
+      const isAllowedDomain =
+        (refHost && ALLOWED.has(refHost)) || (origHost && ALLOWED.has(origHost));
+      const isValidBrowserFetch =
+        (mode === "cors" || mode === "same-origin") &&
+        (!site || site === "same-origin" || site === "same-site");
 
-    const isAllowed =
-      (refererHost && ALLOWED_HOSTS.has(refererHost)) ||
-      (originHost && ALLOWED_HOSTS.has(originHost));
+      if (isDirectOpen || !isAllowedDomain || !isValidBrowserFetch) {
+        return new Response(
+          JSON.stringify({
+            error: true,
+            status: 403,
+            message: "Error: Access denied."
+          }),
+          {
+            status: 403,
+            headers: {
+              "Content-Type": "application/json; charset=utf-8",
+              "Cache-Control": "no-store, no-cache, must-revalidate, private",
+              "X-Content-Type-Options": "nosniff"
+            }
+          }
+        );
+      }
 
-    if (!isAllowed || secFetchSite === "cross-site") {
-      return block403("Domain is blocked.");
+      const res = await env.ASSETS.fetch(request);
+      const headers = new Headers(res.headers);
+      headers.set("Content-Type", "application/json; charset=utf-8");
+      headers.set("Cache-Control", "no-store, no-cache, must-revalidate, private");
+      headers.set("X-Content-Type-Options", "nosniff");
+
+      return new Response(res.body, {
+        status: res.status,
+        statusText: res.statusText,
+        headers
+      });
     }
 
     return env.ASSETS.fetch(request);
